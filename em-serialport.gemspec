@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = ['serial-monitor']
   s.require_paths = ["lib"]
 
-  s.add_dependency "eventmachine", "0.12.10"
+  s.add_dependency "eventmachine", "1.0.0"
   s.add_dependency "serialport"
 end
