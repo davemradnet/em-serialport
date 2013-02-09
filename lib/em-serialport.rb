@@ -1,5 +1,6 @@
 $eventmachine_library = :pure_ruby
 require 'eventmachine'
+require 'eventmachine/pure_ruby'
 require 'serialport'
 
 %w(serial_port connection).each do |file|
